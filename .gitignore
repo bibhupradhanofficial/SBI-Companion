@@ -36,3 +36,6 @@ dist-ssr
 
 # Agent docs and specifications
 docs/
+
+# Credentials
+passwords.md

@@ -1,4 +1,4 @@
-# 🏦 SBI Companion
+# 🏦 SBI Companion: An Agentic AI Banking Companion
 
 <p align="center">
   <img src="public/logo.png" alt="SBI Saathi Logo" width="160" />
