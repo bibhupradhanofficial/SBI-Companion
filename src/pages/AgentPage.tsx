@@ -1177,7 +1177,7 @@ export const AgentPage: React.FC = () => {
               </div>
               <div className="text-left">
                 <h4 className="font-extrabold text-sm text-slate-900 dark:text-white flex items-center gap-1.5">
-                  Companion Companion
+                  SBI AI
                   <span className="flex h-2 w-2 rounded-full bg-green-500" title="Online"></span>
                 </h4>
                 <span className="text-[10px] text-slate-400">SBI's secure conversational assistant</span>
