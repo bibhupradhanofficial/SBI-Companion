@@ -532,7 +532,7 @@ export const ProfilePage: React.FC = () => {
                 {/* Communication Style */}
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-4 items-center border-b border-slate-100 dark:border-slate-850 pb-4">
                   <div className="md:col-span-1">
-                    <span className="font-bold text-slate-800 dark:text-white">AI Agent Tone:</span>
+                    <span className="font-bold text-slate-800 dark:text-white">SBI AI Tone:</span>
                     <p className="text-[10px] text-slate-400 mt-0.5">Companion assistant communication style.</p>
                   </div>
                   <div className="md:col-span-2">
@@ -552,7 +552,7 @@ export const ProfilePage: React.FC = () => {
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-4 items-center">
                   <div className="md:col-span-1">
                     <span className="font-bold text-slate-800 dark:text-white">Proactive Wealth Nudges:</span>
-                    <p className="text-[10px] text-slate-400 mt-0.5">Let AI agent scan metrics and alert gaps.</p>
+                    <p className="text-[10px] text-slate-400 mt-0.5">Let SBI AI scan metrics and alert gaps.</p>
                   </div>
 
                   <div className="md:col-span-2 flex items-center">

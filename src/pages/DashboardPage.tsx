@@ -77,7 +77,7 @@ export const DashboardPage: React.FC = () => {
       "Excellent": "उत्कृष्ट",
       "Companion Analysis Tips": "साथी विश्लेषण सुझाव",
       "Calculated based on savings depth, covers, and debt ratios.": "बचत गहराई, बीमा कवर और ऋण अनुपात के आधार पर गणना की गई।",
-      "Improve Score via AI Agent": "एआई साथी के साथ स्कोर सुधारें",
+      "Improve Score via SBI AI": "एआई साथी के साथ स्कोर सुधारें",
       // Quick Actions
       "Quick Actions": "त्वरित कार्य",
       "Pay / Transfer": "भुगतान / ट्रांसफर",
@@ -139,7 +139,7 @@ export const DashboardPage: React.FC = () => {
       "Critical Alert": "महत्वपूर्ण चेतावनी",
       // Sidebar
       "Home": "होम",
-      "AI Agent": "एआई साथी",
+      "SBI AI": "एआई साथी",
       "Payments": "भुगतान",
       "Investments": "निवेश",
       "Insurance": "बीमा",
@@ -643,7 +643,7 @@ export const DashboardPage: React.FC = () => {
   // Sidebar Menu Items
   const menuItems = [
     { name: t("Home"), path: "/dashboard", icon: LayoutDashboard },
-    { name: t("AI Agent"), path: "/agent", icon: Bot },
+    { name: t("SBI AI"), path: "/agent", icon: Bot },
     { name: t("Payments"), path: "/payments", icon: Wallet },
     { name: t("Mobile Banking"), path: "/mobile-banking", icon: Smartphone },
     { name: t("Credit Cards"), path: "/cards", icon: CreditCard },
@@ -1031,7 +1031,7 @@ export const DashboardPage: React.FC = () => {
                     to="/agent"
                     className="inline-flex items-center gap-1.5 rounded-lg bg-blue-50 px-4 py-2.5 text-xs font-bold text-primary hover:bg-blue-100 dark:bg-blue-950/20 dark:text-blue-400 transition-colors"
                   >
-                    {t("Improve Score via AI Agent")}
+                    {t("Improve Score via SBI AI")}
                     <ArrowRight className="h-4.5 w-4.5" />
                   </Link>
                 </div>

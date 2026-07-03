@@ -260,7 +260,7 @@ export const LandingPage: React.FC = () => {
               Secured inside the SBI Sandbox
             </h2>
             <p className="text-lg text-slate-600 dark:text-slate-300 leading-relaxed">
-              SBI Companion represents a next-generation banking assistant design. It integrates conversational AI agents securely with mock accounts. No funds are touched without your absolute explicit action, and the environment is isolated for safety.
+              SBI Companion represents a next-generation banking assistant design. It integrates conversational SBI AIs securely with mock accounts. No funds are touched without your absolute explicit action, and the environment is isolated for safety.
             </p>
             <div className="inline-flex flex-wrap justify-center gap-8 pt-4">
               <div className="flex items-center gap-2 text-sm text-slate-500 dark:text-slate-400">

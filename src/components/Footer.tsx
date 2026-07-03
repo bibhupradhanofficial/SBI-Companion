@@ -36,7 +36,7 @@ export const Footer: React.FC = () => {
               </li>
               <li>
                 <Link to="/agent" className="text-sm text-slate-500 hover:text-primary dark:text-slate-400 dark:hover:text-white transition-colors">
-                  AI Agent Chat
+                  SBI AI Chat
                 </Link>
               </li>
             </ul>

@@ -19,7 +19,7 @@
 
 ## 🌟 Overview
 
-**SBI Companion** is a premium, AI-powered financial dashboard and conversational AI agent designed to secure and optimize your personal wealth, credit cards, insurance net, and day-to-day banking. By combining next-generation LLM intelligence with secure mockup sandbox capabilities, SBI Companion guides your financial decisions and performs automated workflows with your explicit consent.
+**SBI Companion** is a premium, AI-powered financial dashboard and conversational SBI AI designed to secure and optimize your personal wealth, credit cards, insurance net, and day-to-day banking. By combining next-generation LLM intelligence with secure mockup sandbox capabilities, SBI Companion guides your financial decisions and performs automated workflows with your explicit consent.
 
 ---
 
