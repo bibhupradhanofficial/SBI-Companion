@@ -20,6 +20,7 @@ interface AuthContextType {
   signUp: (email: string, password: string, name?: string) => Promise<{ data: any; error: any }>
   signIn: (email: string, password: string) => Promise<{ data: any; error: any }>
   signOut: () => Promise<{ error: any }>
+  resetPassword: (email: string, redirectTo: string) => Promise<{ error: any }>
   fetchProfile: (userId: string) => Promise<Profile | null>
   updateProfile: (profileData: Partial<Profile>) => Promise<{ data: Profile | null; error: any }>
   fetchGoalsProgress: (userId: string) => Promise<GoalProgress[]>
@@ -208,6 +209,15 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
     }
   }
 
+  const resetPassword = async (email: string, redirectTo: string) => {
+    try {
+      const { error } = await supabase.auth.resetPasswordForEmail(email, { redirectTo })
+      return { error }
+    } catch (error: any) {
+      return { error }
+    }
+  }
+
   const value: AuthContextType = {
     user,
     session,
@@ -218,6 +228,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
     signUp,
     signIn,
     signOut,
+    resetPassword,
     fetchProfile,
     updateProfile,
     fetchGoalsProgress,
