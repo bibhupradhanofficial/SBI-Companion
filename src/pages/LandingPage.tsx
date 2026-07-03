@@ -81,7 +81,7 @@ export const LandingPage: React.FC = () => {
                         />
                       </div>
                       <div className="text-left">
-                        <h4 className="font-bold text-sm">SBI Companion</h4>
+                        <h4 className="font-bold text-sm">SBI AI</h4>
                         <span className="text-[10px] text-blue-200 flex items-center gap-1">
                           <span className="h-1.5 w-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
                           Online & Ready to assist
